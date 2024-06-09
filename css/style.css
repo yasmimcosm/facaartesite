@@ -1,0 +1,443 @@
+* 
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fffdfd;
+        
+    }
+    
+    .aaaa {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f4f4f4;
+        
+    }
+    .aaaa .left {
+    background-size: cover;
+    background-position: left;
+    color: #fff;
+    text-align: left;
+    margin-left: 20px;
+    }
+
+
+
+    
+    .aaaa .right {
+        display: flex;
+        gap: 20px;
+    }
+    .aaaa .right img {
+        width: 30px; /* Ajuste conforme necessário */
+     /* Mantém a proporção da imagem */
+    }
+
+
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 30px;
+    }
+
+
+    nav {
+        float: left;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav ul li {
+            display: inline;
+            margin-right: 90px;
+    
+    }
+
+    nav ul li a {
+            color: #a70c0c;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: 750;
+
+    }
+
+    .aaaa {
+        background-position: left;
+        background-color: #fffdfd;
+        text-align: left;
+    }
+
+
+    #topo {
+        background-color: #eaeaeb;
+        background-size: cover;
+        background-position: center;
+        color: #570000;
+        text-align: center;
+        padding: 200px 30px;
+    }
+
+    #topo p{
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    #topo h2 {
+        margin-bottom: 100px 10px;
+        font-weight: 700;
+        font-size: 38px;
+        }
+        
+
+    .btn {
+        display: inline-block;
+        background-color: #a30303;
+        color: #fff;
+        padding: 30px 30px;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-top: 50px;
+        font-size: 22px;
+    }
+
+    #texto {
+        Text-align: left;
+        background-color: #ffffff;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+
+    #texto h1 {
+        color: #0e0d0d;
+        font-size: 52px;
+        background-color: #fff;
+        padding: 20px 40px;
+        margin-left: 67px;
+        
+    }
+
+    #texto p{
+        color: #4d4c4c;
+ 
+    }
+
+    .Lado1{
+        float: left;
+        width: 25%;
+        padding: 30px 20px;
+        background-color: #fff;
+        margin-left: 120px;
+        font-size: 20px;
+    }
+
+    .Lado2{
+        float: left;
+        margin-left: 50px;
+        width: 30%;
+        padding: 30px;
+        background-color: #fff;
+        font-size: 20px;
+    }
+
+    .Lado3{
+        float: left;
+        margin-left: 20px;
+        width: 30%;
+        padding: 30px;
+        background-color: #fff;
+        font-size: 20px;
+    }
+
+    #produto1 {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;  
+    float: center;               
+    }
+
+    #produto2 {
+        width: 100%;
+        margin-bottom: 110px;
+        text-align: center;
+        background-color: #fff;                
+        }
+            
+    #produto1 h1{
+        margin-left: 140px;
+        text-align: left;
+        color: #0e0d0d;
+        padding: 100px 10px;
+        font-size: 48px;
+                }
+        
+
+    .camisa1{
+        float: left;
+        width: 50%;
+        padding: 3px 20px;
+        background-color: #fff;
+        font-size: 20px;
+    }
+
+    .camisa2{
+        float: right;
+        width: 50%;
+        padding: 3px 20px;
+        background-color: #fff;
+        font-size: 20px;
+    }
+
+    .camisa3{
+        float: left;
+        width: 50%;
+        padding: 3px 20px;
+        background-color: #fff;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .camisa4{
+        float: right;
+        width: 50%;
+        padding: 3px 20px;
+        background-color: #fff;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    #p1 h1{
+        margin-top: 10px;
+        margin-left: 140px;
+        text-align: left;
+        color: #0e0d0d;
+        padding: 100px 10px;
+        font-size: 48px;
+                }
+    
+    #p1 .price {
+        display: block;
+        font-weight: bold;
+        color: #d80000;
+        text-align: left;
+        margin-left: 40px;
+        font-size: 23px;
+
+    }
+
+    #p1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        background-color: #fff;  
+        float: center;          
+        }
+
+        #p1 h3{
+            text-align: left;
+            margin-left: 40px;
+        }
+
+        #p1 p{
+            text-align: left;
+            margin-left: 40px;
+        }
+
+    .c1{
+        float: left;
+        width: 25%;
+        padding: 3px 1px;
+        background-color: #fff;
+        font-size: 20px;
+
+    }
+
+    .c2{
+        float: left;
+        width: 25%;
+        padding: 3px 2px;
+        background-color: #fff;
+        font-size: 20px;
+        
+    }
+
+    .c3{
+        float: left;
+        width: 25%;
+        padding: 3px 2px;
+        background-color: #fff;
+        font-size: 20px;
+    }
+
+    .c4{
+        float: left;
+        width: 25%;
+        padding: 3px 2px;
+        background-color: #fff;
+        font-size: 20px;
+    
+    }
+
+    .btfi {
+        display: inline-block;
+        background-color: #5c0707;
+        color: #fff;
+        padding: 20px 30px;
+        text-decoration: none;
+        border-radius: 60px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        }        
+        
+        
+
+        .text{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #fff;
+        
+        }
+
+        #ti h1{
+            display: flex;
+            background-color: #fff;
+            color: #840101;
+            padding: 80px 100px;
+            font-size: 30px;
+        }
+
+
+        .aaaa2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            
+        }
+        .aaaa2 .left2 {
+            margin-top: 30;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        margin-left: 400px;
+        }
+
+    
+        
+    #texto2 {
+        Text-align: left;
+        background-color: #ffffff;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 300px;
+        
+    }
+
+    #texto2 h1 {
+        color: #0e0d0d;
+        font-size: 52px;
+        background-color: #fff;
+        padding: 20px 40px;
+        margin-left: 30px;
+        
+    }
+
+    #texto2 p{
+        color: #4d4c4c;
+ 
+    }
+
+    .Lado12 ul {
+        list-style: none;
+    }
+    
+    .Lado12 ul li a{
+        text-decoration: none;
+    }
+
+    .Lado22 ul {
+        list-style: none;
+    }
+    
+    .Lado22 ul li a{
+        text-decoration: none;
+    }
+
+    .Lado32 ul {
+        list-style: none;
+    }
+    
+    .Lado32 ul li a{
+        text-decoration: none;
+    }
+
+    .Lado12{
+        color: #4d4c4c;
+        float: left;
+        width: 30%;
+        padding: 30px;
+        margin-left: 40px;
+        margin-bottom: 100px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .Lado22{
+        color: #4d4c4c;
+        float: left;
+        margin-left: 20px;
+        width: 30%;
+        padding: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .Lado32{
+        color: #4d4c4c;
+        float: left;
+        margin-left: 20px;
+        width: 30%;
+        padding: 30px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+
+    #sobre{
+        padding: 30px 100px;
+    }
+    
+    #cima h2{
+            color: #333;
+            padding: 50px 20px;
+            float: left;
+    }
+
+    #contato{
+        padding: 30px 100px
+        
+    }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 30px;
+        }
